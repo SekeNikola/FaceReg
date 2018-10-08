@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="jumbotron text-center"></div>
+<div class="section">
+    <h1>You are registered</h1>
+    <p>Now you can login</p>
+    <a href="/login"><button class="btn btn-success">Continue</button></a>
+
+</div>
+<script>
+    swal({
+        title: "Good job!",
+        text: "You are now registered!",
+        icon: "success",
+        button: "Continue!",
+    });
+</script>
+{% endblock %}
