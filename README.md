@@ -1,5 +1,5 @@
 # FaceReg
-This application is using Flask, OpenCV and Face Recognition packages for Python 3.6 to help users to registered and login with use of their webcam.
+This application is using Flask, OpenCV and Face Recognition packages for Python 3.6 to help users to registered and log in with use of their webcam.
 
 ## Usage:
 Download or clone this repro and type in your terminal
